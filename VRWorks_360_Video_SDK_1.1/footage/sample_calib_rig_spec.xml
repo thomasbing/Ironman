@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The rotation can be specified with the m*, *_deg, or *_rad.
+If several specifications are supplied, the yaw-pitch-roll will take precedence. --> 
+<rig coord_axes="y-up" rig_diameter_cm="21.500000">
+	<camera width="3680" height="2428" layout="equatorial">
+		<pose>
+			<rotation m0="-0.000000" m1="1.000000" m2="-0.000000" m3="-0.707107" m4="-0.000000" m5="-0.707107" m6="-0.707107" m7="0.000000" m8="0.707107" yaw_deg="45.000000" pitch_deg="-0.000000" roll_deg="-90.000000"/>
+			<translation x_cm="-0.707107" y_cm="-0.000000" z_cm="-0.707107"/>
+		</pose>
+		<optics>
+			<focal_length focal_pixels="1084.127563"/>
+			<principal_point center_offset_x="35.786255" center_offset_y="18.561279"/>
+			<lens type="fisheye" k1="0.001019" k2="-0.003101" k3="0.000000" k4="0.000000"/>
+			<fisheye_radius radius_pixels="1780.000000"/>
+		</optics>
+	</camera>
+	<camera width="3680" height="2428" layout="equatorial">
+		<pose>
+			<rotation m0="0.000012" m1="0.999998" m2="-0.001992" m3="0.005873" m4="-0.001992" m5="-0.999981" m6="-0.999983" m7="-0.000000" m8="-0.005873" yaw_deg="90.336494" pitch_deg="0.000000" roll_deg="-90.114151"/>
+			<translation x_cm="-1.000000" y_cm="-0.000000" z_cm="0.000000"/>
+		</pose>
+		<optics>
+			<focal_length focal_pixels="1079.030151"/>
+			<principal_point center_offset_x="0.644897" center_offset_y="64.690063"/>
+			<lens type="fisheye" k1="0.001019" k2="-0.003101" k3="0.000000" k4="0.000000"/>
+			<fisheye_radius radius_pixels="1780.000000"/>
+		</optics>
+	</camera>
+	<camera width="3680" height="2428" layout="equatorial">
+		<pose>
+			<rotation m0="0.006446" m1="0.999957" m2="-0.006668" m3="0.695011" m4="-0.009275" m5="-0.718939" m6="-0.718970" m7="0.000000" m8="-0.695041" yaw_deg="134.030487" pitch_deg="-0.000000" roll_deg="-90.531418"/>
+			<translation x_cm="-0.707107" y_cm="-0.000000" z_cm="0.707107"/>
+		</pose>
+		<optics>
+			<focal_length focal_pixels="1099.331299"/>
+			<principal_point center_offset_x="-24.713745" center_offset_y="23.395508"/>
+			<lens type="fisheye" k1="0.001019" k2="-0.003101" k3="0.000000" k4="0.000000"/>
+			<fisheye_radius radius_pixels="1780.000000"/>
+		</optics>
+	</camera>
+	<camera width="3680" height="2428" layout="equatorial">
+		<pose>
+			<rotation m0="0.009266" m1="0.999957" m2="-0.000287" m3="0.999477" m4="-0.009270" m5="-0.030976" m6="-0.030977" m7="-0.000000" m8="-0.999520" yaw_deg="178.224854" pitch_deg="0.000000" roll_deg="-90.531143"/>
+			<translation x_cm="0.000000" y_cm="-0.000000" z_cm="1.000000"/>
+		</pose>
+		<optics>
+			<focal_length focal_pixels="1105.850342"/>
+			<principal_point center_offset_x="-18.739014" center_offset_y="30.297363"/>
+			<lens type="fisheye" k1="0.001019" k2="-0.003101" k3="0.000000" k4="0.000000"/>
+			<fisheye_radius radius_pixels="1780.000000"/>
+		</optics>
+	</camera>
+	<camera width="3680" height="2428" layout="equatorial">
+		<pose>
+			<rotation m0="-0.001261" m1="0.999998" m2="-0.001279" m3="0.702175" m4="0.001796" m5="0.712002" m6="0.712004" m7="0.000000" m8="-0.702176" yaw_deg="-134.601822" pitch_deg="-0.000000" roll_deg="-89.897095"/>
+			<translation x_cm="0.707107" y_cm="-0.000000" z_cm="0.707107"/>
+		</pose>
+		<optics>
+			<focal_length focal_pixels="1105.344482"/>
+			<principal_point center_offset_x="-46.411255" center_offset_y="77.135986"/>
+			<lens type="fisheye" k1="0.001019" k2="-0.003101" k3="0.000000" k4="0.000000"/>
+			<fisheye_radius radius_pixels="1780.000000"/>
+		</optics>
+	</camera>
+	<camera width="3680" height="2428" layout="equatorial">
+		<pose>
+			<rotation m0="-0.000028" m1="0.999999" m2="-0.001671" m3="0.016726" m4="0.001672" m5="0.999859" m6="0.999860" m7="-0.000000" m8="-0.016726" yaw_deg="-90.958397" pitch_deg="0.000000" roll_deg="-89.904228"/>
+			<translation x_cm="1.000000" y_cm="-0.000000" z_cm="0.000000"/>
+		</pose>
+		<optics>
+			<focal_length focal_pixels="1098.420654"/>
+			<principal_point center_offset_x="-12.924438" center_offset_y="24.210815"/>
+			<lens type="fisheye" k1="0.001019" k2="-0.003101" k3="0.000000" k4="0.000000"/>
+			<fisheye_radius radius_pixels="1780.000000"/>
+		</optics>
+	</camera>
+	<camera width="3680" height="2428" layout="equatorial">
+		<pose>
+			<rotation m0="0.004829" m1="0.999976" m2="-0.005021" m3="-0.693193" m4="0.006966" m5="0.720718" m6="0.720735" m7="0.000000" m8="0.693210" yaw_deg="-46.115223" pitch_deg="-0.000000" roll_deg="-89.600868"/>
+			<translation x_cm="0.707107" y_cm="-0.000000" z_cm="-0.707107"/>
+		</pose>
+		<optics>
+			<focal_length focal_pixels="1110.349121"/>
+			<principal_point center_offset_x="-31.166626" center_offset_y="17.089844"/>
+			<lens type="fisheye" k1="0.001019" k2="-0.003101" k3="0.000000" k4="0.000000"/>
+			<fisheye_radius radius_pixels="1780.000000"/>
+		</optics>
+	</camera>
+	<camera width="3680" height="2428" layout="equatorial">
+		<pose>
+			<rotation m0="0.009888" m1="0.999625" m2="-0.025537" m3="-0.999935" m4="0.010031" m5="0.005479" m6="0.005733" m7="0.025481" m8="0.999659" yaw_deg="-0.328581" pitch_deg="-1.460123" roll_deg="-89.425064"/>
+			<translation x_cm="0.000000" y_cm="-0.000000" z_cm="-1.000000"/>
+		</pose>
+		<optics>
+			<focal_length focal_pixels="1099.333252"/>
+			<principal_point center_offset_x="-75.831421" center_offset_y="57.845703"/>
+			<lens type="fisheye" k1="0.001019" k2="-0.003101" k3="0.000000" k4="0.000000"/>
+			<fisheye_radius radius_pixels="1780.000000"/>
+		</optics>
+	</camera>
+</rig>
+

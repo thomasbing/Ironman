@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rig coord_axes="y-up" >
+	<camera width="1440" height="1440">
+		<input_media_feed>
+			<input_media_form form="file"/>
+			<input_media_file name="Camera2.jpg" width="1440" height="1440"/>
+		</input_media_feed>
+	</camera>
+	<camera width="1440" height="1440">
+		<input_media_feed>
+			<input_media_form form="file"/>
+			<input_media_file name="Camera1.jpg" width="1440" height="1440"/>
+		</input_media_feed>
+	</camera>
+</rig>
+

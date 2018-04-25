@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<camera_rig coord_axes="y-up" rig_diameter_cm="0.0">
+    <camera width="2880" height="2880" layout="general">
+        <input_calib_file name="Camera2.jpg"/>
+        <pose>
+            <rotation yaw_deg ="179.9" pitch_deg ="0.0" roll_deg="0.0" />
+            <translation x_cm="0.0" y_cm="0.0" z_cm="0.0"/>
+        </pose>
+        <optics>
+            <focal_length focal_pixels="3000"/>   <!-- 552 -->
+            <principal_point center_offset_x="0.0" center_offset_y="0.0"/>
+        <!--    <lens type="fisheye" k1="0.4441" k2="-0.3142" k3="0.1430" k4="-0.0345" /> -->
+			<lens type="fisheye" k1="0.0" k2="-0.0" k3="0.0" k4="-0.0" /> 
+            <fisheye_radius radius_pixels="2035.0"/>
+        </optics>
+        <input_media_feed>
+            <input_media_form form="file" />
+            <input_media_file name="Camera2.jpg"  fps="30" width="2880" height="2880"/>
+        </input_media_feed>
+    </camera>
+    <camera width="2880" height="2880" layout="general">
+        <input_calib_file name="Camera1.jpg"/>
+        <pose>
+            <rotation yaw_deg="0.0" pitch_deg="0.0" roll_deg="0.0" />
+            <translation x_cm="0.0" y_cm="0.0" z_cm="0.0"/>
+        </pose>
+        <optics>
+            <focal_length focal_pixels="3000"/>   <!-- 572 -->
+            <principal_point center_offset_x="0.0" center_offset_y="0.0"/>
+        <!--    <lens type="fisheye" k1="0.4441" k2="-0.3142" k3="0.1430" k4="-0.0345" /> -->
+			<lens type="fisheye" k1="0.0" k2="-0.0" k3="0.0" k4="-0.0" /> 
+            <fisheye_radius radius_pixels="2035.0"/>
+        </optics>
+        <input_media_feed>
+            <input_media_form form="file" />
+            <input_media_file name="Camera1.jpg"  fps="30" width="2880" height="2880"/>
+        </input_media_feed>
+    </camera>
+</camera_rig>

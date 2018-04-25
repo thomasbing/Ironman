@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rig>
+  <!-- The rotation can be specified with the m*, *_deg, or *_rad.
+   If several specifications are supplied, the yaw-pitch-roll will take precedence. --> 
+	<audio_source>
+		<pose>
+			<rotation m0="-0.000000" m1="1.000000" m2="-0.000000" m3="-0.707107" m4="-0.000000" m5="-0.707107" m6="-0.707107" m7="0.000000" m8="0.707107" yaw_deg="45.000000" pitch_deg="-0.000000" roll_deg="-90.000000"/>
+			<translation x_cm="0.000000" y_cm="0.000000" z_cm="0.000000"/>
+		</pose>
+		<input_type type="omni"/>
+		<input_audio_feed>
+			<input_audio_form form="file" />
+			<input_audio_file name="Video\Camera8.mp4"/>
+		</input_audio_feed>
+	</audio_source>
+
+	<audio_source>
+		 <pose>
+			<rotation m0="0.000115" m1="0.999911" m2="-0.013313" m3="0.008601" m4="-0.013314" m5="-0.999874" m6="-0.999963" m7="-0.000000" m8="-0.008602" yaw_deg="90.492874" pitch_deg="0.000000" roll_deg="-90.762856"/>
+			<translation x_cm="0.000000" y_cm="0.000000" z_cm="0.000000"/>
+		</pose>
+		<input_type type="omni"/>
+		<input_audio_feed>
+			<input_audio_form form="file" />
+			<input_audio_file name="Video\Camera7.mp4"/>
+		</input_audio_feed>
+	</audio_source>
+
+	<audio_source>
+		<pose>
+			<rotation m0="0.011978" m1="0.999862" m2="-0.011523" m3="0.720548" m4="-0.016621" m5="-0.693206" m6="-0.693301" m7="0.000000" m8="-0.720648" yaw_deg="136.108002" pitch_deg="-0.000000" roll_deg="-90.952354"/>
+			<translation x_cm="0.000000" y_cm="0.000000" z_cm="0.000000"/>
+		</pose>
+		<input_type type="omni"/>
+		<input_audio_feed>
+			<input_audio_form form="file" />
+			<input_audio_file name="Video\Camera6.mp4"/>
+		</input_audio_feed>
+	</audio_source>
+
+	<audio_source>
+		<pose>
+			<rotation m0="0.009910" m1="0.999951" m2="0.000329" m3="0.999401" m4="-0.009916" m5="0.033159" m6="0.033161" m7="0.000000" m8="-0.999450" yaw_deg="-178.099670" pitch_deg="-0.000000" roll_deg="-90.568130"/>
+			<translation x_cm="0.000000" y_cm="0.000000" z_cm="0.000000"/>
+		</pose>
+		  <input_type type="omni"/>
+		<input_audio_feed>
+			<input_audio_form form="file" />
+			<input_audio_file name="Video\Camera5.mp4"/>
+		</input_audio_feed>
+	</audio_source>
+
+	<audio_source>
+		<pose>
+			<rotation m0="0.003463" m1="0.999988" m2="0.003457" m3="0.707716" m4="-0.004893" m5="0.706480" m6="0.706488" m7="0.000000" m8="-0.707725" yaw_deg="-135.050079" pitch_deg="-0.000000" roll_deg="-90.280327"/>
+			<translation x_cm="0.000000" y_cm="0.000000" z_cm="0.000000"/>
+		</pose>
+		<input_type type="omni"/>
+		<input_audio_feed>
+			<input_audio_form form="file" />
+			<input_audio_file name="Video\Camera4.mp4"/>
+		</input_audio_feed>
+	</audio_source>
+
+	<audio_source>
+		<pose>
+			<rotation m0="0.000335" m1="0.999974" m2="-0.007259" m3="-0.046035" m4="0.007267" m5="0.998913" m6="0.998940" m7="0.000000" m8="0.046037" yaw_deg="-87.361359" pitch_deg="-0.000000" roll_deg="-89.583656"/>
+			<translation x_cm="0.000000" y_cm="0.000000" z_cm="0.000000"/>
+		</pose>
+		<input_type type="omni"/>
+		<input_audio_feed>
+			<input_audio_form form="file" />
+			<input_audio_file name="Video\Camera3.mp4"/>
+		</input_audio_feed>
+	</audio_source>
+
+	<audio_source>
+		<pose>
+			<rotation m0="0.013698" m1="0.999821" m2="-0.013050" m3="-0.723889" m4="0.018919" m5="0.689657" m6="0.689781" m7="-0.000000" m8="0.724019" yaw_deg="-43.612743" pitch_deg="0.000000" roll_deg="-88.915955"/>
+			<translation x_cm="0.000000" y_cm="0.000000" z_cm="0.000000"/>
+		</pose>
+		<input_type type="omni"/>
+		<input_audio_feed>
+			<input_audio_form form="file" />
+			<input_audio_file name="Video\Camera2.mp4"/>
+		</input_audio_feed>
+	</audio_source>
+
+	<audio_source>
+		<pose>
+			<rotation m0="0.010356" m1="0.999037" m2="-0.042638" m3="-0.998511" m4="0.008048" m5="-0.053956" m6="-0.053561" m7="0.043133" m8="0.997633" yaw_deg="3.073169" pitch_deg="-2.472102" roll_deg="-89.538445"/>
+			<translation x_cm="0.000000" y_cm="0.000000" z_cm="0.000000"/>
+		</pose>
+		<input_type type="omni"/>
+		<input_audio_feed>
+			<input_audio_form form="file" />
+			<input_audio_file name="Video\Camera1.mp4"/>
+		</input_audio_feed>
+	</audio_source>
+
+</rig>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- STITCHER PROPERTIES XML SPEC -->
+<stitcher_properties>
+
+  <!-- INPUT MEDIA FEED PROPERTIES -->
+  <input_media_form form="host_buffer"/>
+  <input_media_format format="rgb8ui"/>
+
+  <!-- INPUT AUDIO FEED PROPERTIES -->
+  <input_audio_form form="file"/>
+  <input_audio_format format="aac"/>
+ 
+  <!-- OUTPUT VIDEO PROPERTIES -->
+  <output_video_properties>
+    <output_video_projection type="equirectangular" />
+    <output_video_options stereo_ipd="6.3" quality="medium" pipeline="stereo" min_dist="60"/>
+    <output_video_payloads count="1"/>
+    <output_video_form form="host_buffer" />
+    <output_video_format format="rgb8ui" />
+    <output_video_payload_buffer width="3840" height="3840" />      
+  </output_video_properties>
+
+  <!-- OUTPUT AUDIO PROPERTIES -->
+  <output_audio_properties>
+    <output_audio_gain value="1.0"/>
+    <output_audio_blend type="stereo_mixdown" />
+    <output_audio_form form="file" />
+    <output_audio_feed_config format="aac" channels="2" sample_rate="48000" bit_rate="64000" samples_per_frame="1024" />
+  </output_audio_properties>
+  
+</stitcher_properties>
+  

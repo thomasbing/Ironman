@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rig coord_axes="y-up" >
+	<camera width="3680" height="2428">
+		<input_media_feed>
+			<input_media_form form="file"/>
+			<input_media_file name="Camera8.jpg" fps_num="100" fps_den="3" width="3680" height="2428"/>
+		</input_media_feed>
+	</camera>
+	<camera width="3680" height="2428">
+		<input_media_feed>
+			<input_media_form form="file"/>
+			<input_media_file name="Camera7.jpg" fps_num="100" fps_den="3" width="3680" height="2428"/>
+		</input_media_feed>
+	</camera>
+	<camera width="3680" height="2428">
+		<input_media_feed>
+			<input_media_form form="file"/>
+			<input_media_file name="Camera6.jpg" fps_num="100" fps_den="3" width="3680" height="2428"/>
+		</input_media_feed>
+	</camera>
+	<camera width="3680" height="2428">
+		<input_media_feed>
+			<input_media_form form="file"/>
+			<input_media_file name="Camera5.jpg" fps_num="100" fps_den="3" width="3680" height="2428"/>
+		</input_media_feed>
+	</camera>
+	<camera width="3680" height="2428">
+		<input_media_feed>
+			<input_media_form form="file"/>
+			<input_media_file name="Camera4.jpg" fps_num="100" fps_den="3" width="3680" height="2428"/>
+		</input_media_feed>
+	</camera>
+	<camera width="3680" height="2428">
+		<input_media_feed>
+			<input_media_form form="file"/>
+			<input_media_file name="Camera3.jpg" fps_num="100" fps_den="3" width="3680" height="2428"/>
+		</input_media_feed>
+	</camera>
+	<camera width="3680" height="2428">
+		<input_media_feed>
+			<input_media_form form="file"/>
+			<input_media_file name="Camera2.jpg" fps_num="100" fps_den="3" width="3680" height="2428"/>
+		</input_media_feed>
+	</camera>
+	<camera width="3680" height="2428">
+		<input_media_feed>
+			<input_media_form form="file"/>
+			<input_media_file name="Camera1.jpg" fps_num="100" fps_den="3" width="3680" height="2428"/>
+		</input_media_feed>
+	</camera>
+</rig>
+

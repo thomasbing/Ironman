@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- STITCHER PROPERTIES XML SPEC -->
+<nvstitch>
+  <stitcher_properties>
+    <!-- INPUT MEDIA FEED PROPERTIES -->
+    <input_media_form form="file"/>
+    <input_media_format format="mp4"/>
+
+    <!-- INPUT AUDIO FEED PROPERTIES -->
+    <input_audio_form form="file"/>
+    <input_audio_format format="aac"/>
+
+    <!-- OUTPUT VIDEO PROPERTIES -->
+    <output_video_properties>
+      <output_video_projection type="equirectangular" />
+      <output_video_options stereo_ipd="6.3" quality="medium" pipeline="stereo" min_dist="60" />
+      <output_video_format format="mp4" />
+      <output_video_payloads count="1"/>
+      <output_video_form form="file" />
+      <output_video_file name="out_stitched.mp4" fps = "30000/1001" width="3840" height="3840" />
+    </output_video_properties>
+
+    <!-- OUTPUT AUDIO PROPERTIES -->
+    <output_audio_properties>
+      <output_audio_gain value="1.0"/>
+      <output_audio_blend type="stereo_mixdown" />
+      <output_audio_form form="file" />
+      <output_audio_feed_config format="aac" channels="2" sample_rate="48000" bit_rate="64000" samples_per_frame="1024" />
+    </output_audio_properties>
+  </stitcher_properties>
+  
+  <rig coord_axes="y-up">
+    <camera width="3680" height="2428">
+      <input_media_feed>
+        <input_media_form form="file" />
+        <input_media_file name="Camera8.mp4" fps="30000/1001" width="3680" height="2428" />
+      </input_media_feed>
+    </camera>
+    <camera width="3680" height="2428">
+      <input_media_feed>
+        <input_media_form form="file" />
+        <input_media_file name="Camera7.mp4" fps="30000/1001" width="3680" height="2428" />
+      </input_media_feed>
+    </camera>
+    <camera width="3680" height="2428">
+      <input_media_feed>
+        <input_media_form form="file" />
+        <input_media_file name="Camera6.mp4" fps="30000/1001" width="3680" height="2428" />
+      </input_media_feed>
+    </camera>
+    <camera width="3680" height="2428">
+      <input_media_feed>
+        <input_media_form form="file" />
+        <input_media_file name="Camera5.mp4" fps="30000/1001" width="3680" height="2428" />
+      </input_media_feed>
+    </camera>
+    <camera width="3680" height="2428">
+      <input_media_feed>
+        <input_media_form form="file" />
+        <input_media_file name="Camera4.mp4" fps="30000/1001" width="3680" height="2428" />
+      </input_media_feed>
+    </camera>
+    <camera width="3680" height="2428">
+      <input_media_feed>
+        <input_media_form form="file" />
+        <input_media_file name="Camera3.mp4" fps="30000/1001" width="3680" height="2428" />
+      </input_media_feed>
+    </camera>
+    <camera width="3680" height="2428">
+      <input_media_feed>
+        <input_media_form form="file" />
+        <input_media_file name="Camera2.mp4" fps="30000/1001" width="3680" height="2428" />
+      </input_media_feed>
+    </camera>
+    <camera width="3680" height="2428">
+      <input_media_feed>
+        <input_media_form form="file" />
+        <input_media_file name="Camera1.mp4" fps="30000/1001" width="3680" height="2428" />
+      </input_media_feed>
+    </camera>
+  </rig>
+</nvstitch>
